@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: black;
+    background-color: rgb(52, 51, 56);
+}
+.person-card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.person-photo{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: auto;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    transition: 0.8s;
+    border-radius: 0;
+    background-color: black;
+}
+.card-info{
+    display: flex;
+    flex-direction: column ;
+    margin-top: 60px;
+    font-family: "Open Sans Condensed";
+    text-align: center;
+    gap: 15px;
+}
+.person-card:hover .person-photo{
+    height: 130px;
+    width: 130px;
+    border-radius: 140px;
+    margin-top: 20px;
+}
+
+.person1{
+    background-image: url(https://media.licdn.com/dms/image/D4D03AQFKdCvrSvPBxw/profile-displayphoto-shrink_800_800/0/1708819180344?e=1727308800&v=beta&t=FB6pxbrqdgZPgBtJ1CjJCltKKXNF9X5NYhyKvz30wXA);
+}
+.person2{
+    background-color: red;
+}
+.person3{
+    background-color: aqua;
+}
