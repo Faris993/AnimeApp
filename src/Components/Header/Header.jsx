@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { HeaderStyle } from './HeaderStyle.jsx';
 
-const Header = () => {
-  return (
-    <div>Header</div>
-  )
-}
+const Navbar = () => {
+  return <HeaderStyle />;
+};
 
-export default Header
+export default Navbar;
